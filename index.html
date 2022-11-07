@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-2</title>
+</head>
+<body>
+    <h2>1.What is lazy loading in react?</h2>
+    <p>Lazy loading means that a component or a part of code must get loaded when it is required. It is also referred to as code splitting and data fetching . Talking about React specifically, it bundles the complete code and deploys all of it at the same time.</p>
+
+
+    <h2>2.Difference between Stateful and Stateless components</h2>
+    <p>A stateless component can render props, whereas a stateful component can render both props and state. A significant thing to note here is to comprehend the syntax distinction. In stateless components, the props are displayed like {props.name} but in stateful components, the props and state are rendered like {this.props.name} and {this.state.name} respectively. </p>
+    <p>A stateless component renders output which depends upon props value, but a stateful component render depends upon the value of the state. A functional component is always a stateless component, but the class component can be stateless or stateful.</p>
+
+    <h2>3.What is the package name you are using for routing</h2>
+      <p>react-router-dom</p>
+      <p>React Router is a standard library system built on top of the React and used to create routing in the React application using React Router Package.</p>
+
+    <h2>4.What is the Difference between react and react native? Which one is library or framework?</h2>
+    <p>React is a JavaScript library of reusable components designed to create skeletons of the apps, whereas React Native is designed to build native mobile apps with reusable components.</p>
+     <li>React is an open source JS library for building the UIs for web appliations whereas React Native is use dt obuild mobile UI declarative components using only JS</li>
+    <li>Both React and React Native are ruling industry and are widely used for mobile and web applications. However, the difference between web apps vs websites will not affect your user</li>
+
+    <h2>5.Routing Implementation:</h2>
+      <p>React Router is a standard library for routing in React. It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL.The application will contain three components: home component, about a component, and contact component. We will use React Router to navigate between these components.</p>
+
+      <h2>6.How do you switch/navigate form one component to another in React?</h2>
+      <p>Firstly, Create a basic react app using the following command in your terminal.</p>
+      <p>CMD: 'npx create-react-app ProjectName'</p>
+      <p>Second, Make different pages for routing. Here, Create different components for our react-app</p>
+      <p>Components: Home Page, About Page, ContactUs Page.</p>
+      <p>Third, Install react-router-dom package.</p>
+      <p>CMD: 'npm i react-router-dom'</p>
+      <p>Next, Implement routing using the react-router-dom package.  Implement the react-router-dom package in our react-app. 
+        To implement this, We have to import some components from the react-router-dom package i.e.,  BrowserRouter, Switch, Route, and Redirect.</p>
+      <p>BrowserRouter: uses the HTML5 history API to keep the UI in sync with the URL.</p>
+       <p> Route: Its responsibility is to render UI, when its path matches the current URL.</p>
+       <p>Finally, After implementing routing in App.js file, We have to give the routing end points at user side. So, We are going to give the routing endpoints in Home.jsx file.</p>
+       <p>Step to run the app, Open the terminal and run 'npm start'</p>
+      
+
+</body>
+</html>
